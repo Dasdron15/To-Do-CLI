@@ -118,4 +118,3 @@ list <Optional: done, todo, in-progress>
             
     except Exception as e:
         print("Invalid syntax")
-        print(f"Error: {e}")
