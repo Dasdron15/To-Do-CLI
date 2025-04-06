@@ -105,12 +105,12 @@ while True:
 
         elif command[:4] == "help":
             print("""----------------
-add <task name>
-update <task id> <updated task name>
-delete <task id>
-mark-in-progress <task id>
-mark-done <task id>
-list <Optional: done, todo, in-progress>
+add <TASK_NAME>
+update <TASK_ID> <NEW_NAME>
+delete <TASK_ID>
+mark-in-progress <TASK_ID>
+mark-done <TASK_ID>
+list <OPTIONAL: DONE, TODO, IN-PROGRESS>
 ----------------""")
 
         else:
